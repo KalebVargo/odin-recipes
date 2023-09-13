@@ -1,1 +1,2 @@
 # odin-recipes
+This current project is about creating a basic recipe website. I will have demonstrated my understanding of git, html, and how to create a basic website. I will be making lists, adding images, linking pages, and more basic HTML functions. I will be utilizing git and GitHub.
