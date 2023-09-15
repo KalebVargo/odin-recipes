@@ -17,3 +17,6 @@ ul {
 .center {
     text-align: center;
 }
+.color-me {
+    animation: rainbow 10s linear infinite;
+}
