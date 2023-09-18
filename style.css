@@ -5,7 +5,8 @@
     height: auto;
     width: 400px;
 }
-.title-image {
+.title-image,
+.center {
     text-align: center;
 }
 ol {
@@ -14,9 +15,20 @@ ol {
 ul {
     color: green
 }
-.center {
-    text-align: center;
-}
 .color-me {
     animation: rainbow 10s linear infinite;
+}
+.link-container {
+    /* border: 3px solid red; */
+}
+.link-container button {
+    border: 3px solid rgb(117, 50, 231);
+    /* margin-left: 33%; */
+    /* margin-left: 240px; */
+    width: 250px;
+    height: 25px;
+    margin: 4px auto;
+    padding-top: 4px;
+    /* text-align: center; */
+    /* box-sizing: border-box; */
 }
