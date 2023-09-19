@@ -15,8 +15,23 @@ ol {
 ul {
     color: green
 }
-.color-me {
-    animation: rainbow 10s linear infinite;
+.rainbow {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s linear infinite;
+    margin: auto 50px;
+    background-size: 400% 100%;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
 .link-container {
     /* border: 3px solid red; */
@@ -31,4 +46,7 @@ ul {
     padding-top: 4px;
     /* text-align: center; */
     /* box-sizing: border-box; */
+}
+#shadowBox {
+
 }
